@@ -1,15 +1,22 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
     <>
       <div className="navbar">
         <div className="logo-nav">
-          <svg className="bars"
+          <svg onClick={toggleMenu}
+            className="bars"
             xmlns="http://www.w3.org/2000/svg"
-            width="46"
-            height="46"
+            width="40"
+            height="40"
             fill="white"
             viewBox="0 0 448 512"
           >
@@ -49,7 +56,7 @@ const Navbar = () => {
             </span>
             <p className="logopara">Developer Tools for Seo and Beyond</p>
           </div>
-          <ul>
+          <ul className={`navbar-links ${isMenuOpen ? 'open' : ''}`}>
             <li>
               <Link to="/">HOME</Link>
             </li>
