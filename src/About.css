@@ -1,0 +1,28 @@
+.abouthead {
+  margin-top: 82px;
+  width: 100%;
+  background-color: #0d3725;
+  margin-bottom: -10px;
+}
+.abouthead h1 {
+  color: white;
+  text-align: center;
+  padding: 80px 0px;
+  font-weight: 700;
+  font-size: 45px;
+}
+.aboutmid {
+padding: 50px 100px;
+color: white;
+background-color: #151A1A;
+}
+.aboutmid h1{
+    font-size: 36px;
+    font-weight: 700;
+}
+.aboutmid p{
+    font-size: 14px;
+}
+.aboutmid li{
+    font-size: 14px;
+}

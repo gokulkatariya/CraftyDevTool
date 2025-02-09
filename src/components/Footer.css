@@ -1,0 +1,50 @@
+.footer {
+  width: 100%;
+  background-color: #443004;
+  color: white;
+  padding: 50px 110px 40px 110px;
+}
+.footercontant {
+  border-bottom: 1px solid gray;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+.footerlogo-1 {
+  color: #43906e;
+  font-size: 30px;
+  font-weight: 700;
+}
+.footerlogo-2 {
+  font-weight: 700;
+}
+.footer-1 .para-1 {
+  font-weight: 600;
+  font-size: 12px;
+}
+.footer-1 .para-2 {
+  margin-top: -15px;
+  font-size: 15px;
+}
+.footercontant .footer-1 {
+  width: 40%;
+}
+.footercontant .footer-2 {
+  width: 20%;
+}
+.footercontant .footer-2 li {
+  list-style: none;
+  font-size: 14px;
+  cursor: pointer;
+  line-height: 25px;
+}
+.footercontant .footer-3 li {
+  list-style: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 15px;
+}

@@ -1,0 +1,98 @@
+.navbar {
+  width: 100%;
+  background-color: #242d2d;
+  padding: 10px 20px 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.logo-nav .bars {
+  display: none;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+}
+.logospan-1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #43906e;
+}
+.logospan-2 {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.logo .logopara {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.logo-nav {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  gap: 50px;
+}
+.rotate {
+  animation: rotating 2s linear infinite;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logo-nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 5px;
+}
+
+.logo-nav ul li {
+  list-style: none;
+  color: white;
+}
+.logo-nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.logo-nav ul li:hover {
+  border-bottom: 3px solid#43906e;
+}
+.navIcons {
+  display: flex;
+  gap: 40px;
+  cursor: pointer;
+}
+.navIcons .eye-icon {
+  border: #43906e;
+  border-radius: 50%;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-right-style: dashed;
+  border-top-style: dashed;
+  border-top-width: 1px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 980px) {
+  .logo-nav ul li {
+    display: none;
+  }
+  .logo-nav .bars {
+    display: block;
+  }
+}

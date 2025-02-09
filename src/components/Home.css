@@ -1,0 +1,132 @@
+.home {
+  width: 100%;
+  margin-top: 82px;
+  background-color: #151a1a;
+}
+
+.homehading h1 {
+  color: white;
+  text-align: center;
+  margin-right: 7rem;
+  margin-bottom: 0px;
+  padding: 80px;
+  font-size: 40px;
+}
+.homehading h1 span {
+  color: #5fa184;
+}
+.homehading p {
+  margin-top: -70px;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+.inputBox {
+  margin: 30px auto;
+  border: 2px solid #5fa184;
+  max-width: 700px;
+  height: 80px;
+  display: flex;
+  border-radius: 50px;
+}
+.inputBox input {
+  flex: 1;
+  padding: 30px 25px;
+  border: none;
+  outline: none;
+  color: white;
+  background: transparent;
+  font-size: 18px;
+}
+.inputBox button {
+  cursor: pointer;
+  padding: 25px;
+  border: none;
+  background-color: #5fa184;
+  border-radius: 50%;
+}
+.homeButtons {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #71827c;
+  max-width: 1300px;
+  margin: auto;
+  padding: 50px 20px 20px 10px;
+}
+
+.homeButtons button {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid #71827c;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.homeButtons button:hover {
+  color: black;
+  background-color: #ceeade;
+  border: 2px solid #ceeade;
+}
+.home h1 {
+  margin-top: 30px;
+  color: white;
+  margin-left: 110px;
+  font-weight: 700;
+}
+.homecard {
+  max-width: 1350px;
+  margin: 0px auto;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.homecard .card {
+  width: 31%;
+  margin-top: 20px;
+  border: 2px solid #205840;
+  border-radius: 10px;
+  background-color: #151a1a;
+  color: white;
+  padding: 30px 15px 10px 15px;
+}
+.card h3 {
+  font-weight: 600;
+  font-size: 24px;
+}
+.card p {
+  font-size: 15px;
+  margin-top: 15px;
+}
+.cardfooter {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+.footer-1 {
+  width: 75%;
+}
+.footer-1 button {
+  border: none;
+  background-color: #205840;
+  color: white;
+  font-size: 10px;
+  padding: 3px 10px;
+  margin: 5px;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.footer-2 button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  margin-left: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
